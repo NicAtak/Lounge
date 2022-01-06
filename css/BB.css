@@ -1,0 +1,62 @@
+* {font-family: calibri;}
+
+.main-header {
+    background-color:rgb(116, 41, 41);
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: pink;
+}
+
+.main-nav {
+    background-color: rgb(204, 57, 81);
+    padding: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+    
+}
+.main-nav > ul {
+    height: 50px;
+    width: 500px;
+    margin: 0 auto;
+}
+.main-nav > ul > li {
+    list-style-type: none;
+    width: 150px;
+    float: left;
+    border: 1px solid rgb(116, 41, 41);
+    text-align: center;
+}
+.main-nav >ul >li > a {
+    text-decoration: none;
+    color:pink;
+    line-height: 50px;
+    display: block;
+}
+.main-nav >ul >li > a:hover {
+    background-color: pink;
+    color:rgb(116, 41, 41);   
+}
+
+.card-body {
+    background-color: rgb(116, 41, 41);
+}
+
+.card-title {
+    color: pink;
+    font-family: calibri;
+}
+
+.card-text {
+    color: pink;
+    font-family: calibri;
+}
+
+.col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+

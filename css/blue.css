@@ -10,16 +10,17 @@ html, body {
 body {
     margin: 10px;
 }
-.main-header, .main-footer {
-    background-color:rgb(88, 159, 179);
+.main-header {
+    background-color:rgb(116, 41, 41);
     padding: 20px;
     margin-bottom: 10px;
     text-align: center;
     font-size: 40px;
-    color: rgb(6, 97, 150);;
+    color: pink;
 }
+
 .main-nav {
-    background-color: rgb(6, 97, 150);
+    background-color: rgb(204, 57, 81);
     padding: 20px;
     margin-bottom: 10px;
     height: 50px;
@@ -34,18 +35,19 @@ body {
     list-style-type: none;
     width: 150px;
     float: left;
-    border: 1px solid rgb(109, 205, 231);
+    border: 1px solid rgb(116, 41, 41);
     text-align: center;
 }
 .main-nav >ul >li > a {
     text-decoration: none;
-    color:white;
+    color:pink;
     line-height: 50px;
     display: block;
 }
 .main-nav >ul >li > a:hover {
-    background-color: rgb(6, 97, 150);
-    color:rgb(8, 6, 131);   
+    background-color: pink;
+    color:rgb(116, 41, 41);   
+}   
 }
 .right-sidebar {
     background-color:rgb(19, 124, 185);

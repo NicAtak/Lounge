@@ -13,11 +13,11 @@
     background-color: rgb(204, 57, 81);
     padding: 20px;
     margin-bottom: 10px;
-    height: 50px;
+    height: 100px;
     
 }
 .main-nav > ul {
-    height: 50px;
+    height: 100px;
     width: 500px;
     margin: 0 auto;
 }

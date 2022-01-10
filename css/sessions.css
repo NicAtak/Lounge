@@ -1,6 +1,13 @@
+
+html, body {
+    height: 100%;   
+}
+
 .main-header {
-    background-color:rgb(116, 41, 41);
+    background-color:rgb(134, 31, 31);
     padding: 20px;
+    border: 1px solid rgb(134, 31, 31);
+    border-radius: 15px;
     margin-bottom: 10px;
     text-align: center;
     font-size: 40px;
@@ -10,20 +17,22 @@
 .main-nav {
     background-color: rgb(204, 57, 81);
     padding: 20px;
+    border: 1px solid rgb(134, 31, 31);
+    border-radius: 15px;
     margin-bottom: 10px;
-    height: 100px;
+  
     
 }
 .main-nav > ul {
     height: 50px;
     width: 500px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 .main-nav > ul > li {
     list-style-type: none;
     width: 150px;
     float: left;
-    border: 1px solid rgb(116, 41, 41);
+    border: 1px solid rgb(134, 31, 31);
     text-align: center;
 }
 .main-nav >ul >li > a {
@@ -34,7 +43,7 @@
 }
 .main-nav >ul >li > a:hover {
     background-color: pink;
-    color:rgb(116, 41, 41);   
+    color:rgb(134, 31, 31);   
 }
 
 
@@ -44,13 +53,13 @@
 	margin-right:auto;
 
     max-width: 500px;
-    background: rgb(116, 41, 41);
+    background: rgb(134, 31, 31);
     padding: 20px 30px 20px 30px;
     font: 14px "Calibri";
     color: pink;
     text-shadow: 1px 1px 1px rgb(20, 1, 5);
     border:1px solid #DDD;
-    border-radius: 5px;
+    border-radius: 15px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
@@ -80,7 +89,7 @@
     font-family: "Calibri";
     font-weight: bold;
 }
-.bootstrap-frm input[type="text"], .bootstrap-frm input[type="email"], .bootstrap-frm textarea, .bootstrap-frm select{
+.bootstrap-frm input[type="text"], .bootstrap-frm input[type="artist"], .bootstrap-frm textarea, .bootstrap-frm select{
     border: 1px solid #CCC;
     color: #888;
     height: 20px;
@@ -97,10 +106,11 @@
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background-color: pink;
 }
 .bootstrap-frm select {
-    background: #FFF url('down-arrow.png') no-repeat right;
-    background: #FFF url('down-arrow.png') no-repeat right;
+    background: pink url('down-arrow.png') no-repeat right;
+    background: pink url('down-arrow.png') no-repeat right;
     appearance:none;
     -webkit-appearance:none; 
     -moz-appearance: none;
@@ -114,6 +124,7 @@
     height:100px;
 	padding: 5px 0px 0px 5px;
 	width: 70%;
+    background-color: pink;
 }
 .bootstrap-frm .button {
     background: #FFF;
@@ -126,4 +137,18 @@
     color: #333;
     background-color: #EBEBEB;
     border-color: #ADADAD;
+}
+
+.fa {
+    color:rgb(204, 57, 81);
+}
+footer {
+    background-color:rgb(134, 31, 31);
+    padding: 10px;
+    border: 1px solid rgb(134, 31, 31);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: pink;
+    margin: 20px;
 }

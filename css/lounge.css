@@ -1,5 +1,8 @@
+* {
+    font-family: calibri;
+}
 
-html, body {
+html, body {  
     height: 100%;   
 }
 
@@ -12,8 +15,9 @@ html, body {
     text-align: center;
     font-size: 40px;
     color: pink;
-    font-family: ;
+    
 }
+
 
 .main-nav {
     background-color: rgb(204, 57, 81);
@@ -55,7 +59,6 @@ html, body {
     height: 200px;
     border: 1px solid rgb(134, 31, 31);
     border-radius: 15px;
-    -moz-border-radius: 15px;
     margin-bottom: 10px;
     text-align: center;
     font-size: 20px;
@@ -66,7 +69,6 @@ html, body {
     height: 750px;
     border: 1px solid white;
     border-radius: 15px;
-    -moz-border-radius: 15px;
     background-color: rgb(243, 120, 141);
     margin-bottom: 10px;
     text-align: center;
@@ -82,7 +84,6 @@ html, body {
     height: 10%;
     border: 1px solid rgb(204, 57, 81);
     border-radius: 15px;
-    -moz-border-radius: 15px;
     box-shadow: 5px 10px rgb(243, 120, 141);
     font-size: 15px; 
     color: rgb(243, 120, 141);
@@ -97,7 +98,6 @@ html, body {
         height: 10%;
         border: 1px solid white;
         border-radius: 15px;
-        -moz-border-radius: 15px;
         font-size: 20px; 
         color: white;
         text-align: center;
@@ -119,5 +119,17 @@ footer {
 }
 .carousel {
     width: 25%;
-    height:auto; 
+    height: auto; 
 }
+
+.col-2 {
+    border: 3px solid pink;
+    border-radius: 4px;
+    padding: 5px;
+    width: 160px;
+    margin-bottom: 15px;
+  }
+  
+  .col-2 :hover {
+    box-shadow: 0 0 2px 1px white;
+  }

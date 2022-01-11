@@ -1,3 +1,6 @@
+* {
+    font-family: serif; 
+}
 
 html, body {
     height: 100%;   
@@ -20,6 +23,8 @@ html, body {
     border: 1px solid rgb(134, 31, 31);
     border-radius: 15px;
     margin-bottom: 10px;
+    
+    
   
     
 }

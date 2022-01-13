@@ -25,6 +25,7 @@ html, body {
     border: 1px solid rgb(134, 31, 31);
     border-radius: 15px;
     margin-bottom: 10px;
+    box-shadow: 10px 10px 10px rgb(17, 1, 4);
     
     
 }
@@ -63,6 +64,7 @@ html, body {
     text-align: center;
     font-size: 20px;
     color: pink;
+    box-shadow: 10px 10px 10px rgb(17, 1, 4);
 } 
 
 .left-section {
@@ -103,6 +105,7 @@ html, body {
         text-align: center;
         margin: 20px;
         padding: 30px;
+        box-shadow: 10px 10px 10px rgb(17, 1, 4);
 }
 
 .fa {
@@ -116,6 +119,7 @@ footer {
     text-align: center;
     font-size: 20px;
     color: pink;
+    margin: 10px;
 }
 .carousel {
     width: 25%;
@@ -138,6 +142,11 @@ footer {
     position: sticky;
     top: 0;
     z-index: 99;
+  }
+
+  .video-1 {
+      padding: 10px;
+      margin-bottom: 40px;
   }
 
   .youtube {
@@ -168,13 +177,6 @@ footer {
 @media (min-width: 1200px) { 
     body {
         /* background-color: yellow; */
-    }
-    .cards > li {
-        margin-right: 20px;
-        margin-bottom: 20px;
-    }
-    .cards > li:last-child {
-        margin-right: 0px;
     }
 }
 

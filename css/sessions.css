@@ -61,12 +61,10 @@ html, body {
     padding: 20px 30px 20px 30px;
     font: 14px "Calibri";
     color: pink;
-    text-shadow: 1px 1px 1px rgb(20, 1, 5);
-    border:1px solid #DDD;
+    border:5px solid pink;
     border-radius: 15px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-   
 }
 .bootstrap-frm h1 {
     font: 30px "Calibri";

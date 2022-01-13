@@ -93,3 +93,50 @@ footer {
     color: pink;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+
+  @media (min-width: 576px) { 
+    body {
+       /* background-color: blue; */
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    body {
+        /* background-color: green; */
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    body {
+        /*background-color: black; */
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    body {
+        /* background-color: yellow; */
+    }
+    .cards > li {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .cards > li:last-child {
+        margin-right: 0px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    body {
+       /* background-color: grey; */
+    }
+}
+

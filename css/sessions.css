@@ -56,7 +56,6 @@ html, body {
 .bootstrap-frm {
 	margin-left:auto;
 	margin-right:auto;
-
     max-width: 500px;
     background: rgb(134, 31, 31);
     padding: 20px 30px 20px 30px;
@@ -67,6 +66,7 @@ html, body {
     border-radius: 15px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
+   
 }
 .bootstrap-frm h1 {
     font: 30px "Calibri";
@@ -156,4 +156,51 @@ footer {
     font-size: 20px;
     color: pink;
     margin: 20px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+
+  @media (min-width: 576px) { 
+    body {
+       /* background-color: blue; */
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    body {
+        /* background-color: green; */
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    body {
+        /*background-color: black; */
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    body {
+        /* background-color: yellow; */
+    }
+    .cards > li {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .cards > li:last-child {
+        margin-right: 0px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    body {
+       /* background-color: grey; */
+    }
 }

@@ -24,6 +24,7 @@ html, body {
     border-radius: 15px;
     margin-bottom: 10px;  
     box-shadow: 10px 10px 10px rgb(17, 1, 4);
+    font-size: 20px;
 }
 
 .main-nav > ul {
@@ -46,7 +47,8 @@ html, body {
 }
 .main-nav >ul >li > a:hover {
     background-color: pink;
-    color:rgb(134, 31, 31);   
+    color:rgb(134, 31, 31); 
+    box-shadow: 10px 10px 10px rgb(17, 1, 4);  
 }
 
 .card {

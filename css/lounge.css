@@ -26,8 +26,7 @@ html, body {
     border-radius: 15px;
     margin-bottom: 10px;
     box-shadow: 10px 10px 10px rgb(17, 1, 4);
-    
-    
+    font-size: 20px;   
 }
 .main-nav > ul {
     height: 50px;
@@ -40,6 +39,7 @@ html, body {
     float: left;
     border: 1px solid rgb(134, 31, 31);
     text-align: center;
+    
 }
 
 .main-nav >ul >li > a {
@@ -47,11 +47,14 @@ html, body {
     color:pink;
     line-height: 50px;
     display: block;
+    
 }
 
 .main-nav >ul >li > a:hover {
     background-color: pink;
-    color:rgb(134, 31, 31);   
+    color:rgb(134, 31, 31);  
+    box-shadow: 10px 10px 10px rgb(17, 1, 4);
+    
 } 
 
 .main-section {

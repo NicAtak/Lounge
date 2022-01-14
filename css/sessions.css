@@ -23,7 +23,8 @@ html, body {
     border: 1px solid rgb(134, 31, 31);
     border-radius: 15px;
     margin-bottom: 10px;
-    box-shadow: 10px 10px 10px rgb(17, 1, 4);  
+    box-shadow: 10px 10px 10px rgb(17, 1, 4); 
+    font-size: 20px; 
 }
 .main-nav > ul {
     height: 50px;
@@ -46,6 +47,8 @@ html, body {
 .main-nav >ul >li > a:hover {
     background-color: pink;
     color:rgb(134, 31, 31);   
+    box-shadow: 10px 10px 10px rgb(17, 1, 4); 
+    font-size: 20px; 
 }
 
 
